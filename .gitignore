@@ -1,0 +1,8 @@
+runtime/*
+runtime/.gitignore
+nbproject/*
+vendor/*
+.idea/*
+.idea
+config/db.php
+config/params.php
