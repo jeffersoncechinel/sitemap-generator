@@ -1,6 +1,8 @@
 <?php
 
+// All path locations must end with slash.
 return [
-    'webRoot' => '/var/www/html/site/webroot',
-    'url' => 'https://www.example.com/', //Dont forget the slash at the end.
+    'webRoot' => '/tmp/',
+    'url' => 'https://www.example.com/',
+    'pingGoogle' => false,
 ];

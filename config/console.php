@@ -1,6 +1,6 @@
 <?php
 
-$db = array_merge(
+$params = array_merge(
     require(__DIR__ . '/params.default.php'),
     require(__DIR__ . '/params.php')
 );

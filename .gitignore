@@ -6,3 +6,4 @@ vendor/*
 .idea
 config/db.php
 config/params.php
+Custom.php

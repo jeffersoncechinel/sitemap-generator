@@ -29,17 +29,17 @@ class m160618_144401_Init extends Migration
 
         $this->insert('sitemap', array(
             'filename' => 'site-index.xml',
-            'priority' => 1,
+            'priority' => 0.7,
             'changefreq' => 'MONTHLY',
             'is_static' => 1,
-            'is_compressed' => 1,
+            'is_compressed' => 0,
             'is_child' => 1,
             'is_active' => 1,
         ));
 
         $this->insert('sitemap', array(
             'filename' => 'content-index.xml',
-            'priority' => 1,
+            'priority' => 0.8,
             'changefreq' => 'MONTHLY',
             'is_static' => 0,
             'is_compressed' => 1,

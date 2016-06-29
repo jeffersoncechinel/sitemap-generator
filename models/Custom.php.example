@@ -1,0 +1,30 @@
+<?php
+
+namespace app\models;
+
+use Yii;
+
+class Custom extends \yii\db\ActiveRecord
+{
+   public static function siteIndex()
+   {
+       $urls = [
+           'https://www.example.com/contact',
+           'https://www.example.com/about-us',
+           'https://www.example.com/faq',
+       ];
+
+       return $urls;
+   }
+
+    public static function siteContent()
+    {
+        $urls = [
+            'https://www.example.com/contact',
+            'https://www.example.com/about-us',
+            'https://www.example.com/faq',
+        ];
+
+        return $urls;
+    }
+}
