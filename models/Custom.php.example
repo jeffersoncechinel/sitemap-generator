@@ -17,7 +17,7 @@ class Custom extends \yii\db\ActiveRecord
        return $urls;
    }
 
-    public static function siteContent()
+    public static function contentIndex()
     {
         $urls = [
             'https://www.example.com/contact',
