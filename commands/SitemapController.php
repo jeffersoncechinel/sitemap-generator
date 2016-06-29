@@ -221,12 +221,10 @@ class SitemapController extends Controller
     private function pingGoogle($host)
     {
         $client = new Client();
-        $options = [
-            'debug' => true,
-        ];
+
         $url = 'http://www.google.com/webmasters/tools/ping?sitemap=https%3A%2F%2F' . $host . '%2Fsitemap.xml';
         echo "\nPinging google: ". $url . "\n";
-        $response = $client->get($url, $options);
+        $client->get($url);
     }
 
     private function getNow()
